@@ -1,0 +1,8 @@
+#introLogo.brand-lockup>b{font:inherit;letter-spacing:inherit}
+#navBrandSlot{display:flex;align-items:center;flex:none;width:80px;height:44px}
+#introLogo.brand-lockup.is-nav{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:6px;margin:0;color:var(--bone,#1d1d1f);font:650 23px/1 var(--body,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif);letter-spacing:.08em;-webkit-text-stroke:0}
+#introLogo.brand-lockup.is-nav>b{font:inherit;letter-spacing:inherit}
+#introLogo.brand-lockup.is-nav>span{font:500 9px/1.2 var(--body,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif);letter-spacing:.2em}
+.intro-writer{position:fixed;left:0;top:0;z-index:220;display:block;width:1px;height:1px;max-width:none;max-height:none;margin:0;padding:0;border:0;object-fit:fill;pointer-events:none;user-select:none;-webkit-user-drag:none;filter:grayscale(1);opacity:0;visibility:hidden;transform-origin:0 0;transition:none;will-change:transform}
+.intro-writer.is-in-hero{position:absolute;z-index:2}
+@media(prefers-reduced-motion:reduce){.intro-writer,#introLogo.brand-lockup{scroll-behavior:auto}}

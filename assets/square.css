@@ -1,0 +1,37 @@
+:root{
+ --card-radius:0!important;
+ --control-radius:0!important;
+ --radius:0!important;
+}
+
+/* Shared corners also govern the image, glass edge, and its hover/focus outline. */
+:where(
+ header,nav,main,section,article,aside,figure,details,summary,dialog,
+ form,fieldset,input,select,textarea,pre,picture,
+ img:not(.guide-avatar-fallback):not(.intro-writer),
+ a,button:not(.hs):not(.sp),[role='button']:not(.hs):not(.sp),
+ .btn,.chips span,.expand-symbol,.collection-tab,.collection-panel,
+ .custom-merch-slide,.custom-merch-samples a,.custom-merch-preview,
+ .sip,.sip-kit,.sip-card,.sip-info,.service-reveal,.chapter-occasions,
+ .creation-hub,.imagination,.drawing-example,.flyer-crop,
+ .service-example,.service-visual,.occasion-example,.occasion-visual,
+ .hero-collection,.hero-collection>a,.item,.tilt,.meta,.m-tile,
+ .p2f-stage,.p2f-fallback,.p2f-read,.p2f-steps li,
+ .m-shot,.m-pic,.merch,.collection-showcase,.info-hub .expand-block,
+ #orderForm,.form-out,.form-status,.field-error,
+ .lab-console,.viewer,.lc-top,.lc-bot,.tag,
+ .lb,.lb-bar,.mm,.mm-card,.mm-img,.mm-info,.mm-n,
+ .g-panel,.g-cloud,.g-face,.g-hit,.g-bubble,.g-head,.g-log,.g-quick,.g-form,.g-acts,.msg,
+ .studio-guide,.nav-tog,.badge,.ld-bar,.ld-bar i,.sp b,.hs b
+){border-radius:0!important}
+
+:where(
+ .btn,.custom-merch-samples a,.sip-card,.item,.m-tile,
+ .flyer-crop,.m-shot,.p2f-stage,.g-cloud,.mm-card,.g-panel
+)::before,
+:where(
+ .btn,.custom-merch-samples a,.sip-card,.item,.m-tile,
+ .flyer-crop,.m-shot,.p2f-stage,.g-cloud,.mm-card,.g-panel
+)::after{border-radius:0!important}
+
+/* Product-location dots and range thumbs remain circular interaction markers. */
